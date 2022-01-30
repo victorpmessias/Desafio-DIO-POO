@@ -20,11 +20,11 @@ public  class Nivel {
 
         private static void setNivel(Dev dev){
             for(int i = 0; i<100; i++){
-                if(dev.calcularTotalXp()<niveis[i]){
+                if(dev.calcularTotalXp()<=niveis[i]){
                     nivel = i+1;
                     break;
                 } 
-                
+            nivel = 100;
             }
     }
 
@@ -32,4 +32,5 @@ public  class Nivel {
         init(dev);
         return nivel;
     }
+    
 }
