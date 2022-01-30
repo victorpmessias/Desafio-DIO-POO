@@ -1,0 +1,1 @@
+Desafio DIO realizado no bootcamp GFT Start#3- JAVA. Neste desafio foi criado um projeto onde são desenvolvido os pilares da OO : Abstração, Encapsulamento, Herança e Polimorfismo.
