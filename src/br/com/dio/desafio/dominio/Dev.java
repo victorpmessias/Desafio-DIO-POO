@@ -28,6 +28,10 @@ public class Dev {
         return this.conteudosConcluidos.stream().mapToDouble(Conteudo::calcularXp).sum();
     }
 
+    public int getNivel(){
+        return Nivel.getNivel(this);
+    }
+
     public String getNome() {
         return nome;
     }
